@@ -63,12 +63,9 @@ pip install sentence-transformers transformers accelerate faiss-cpu pytesseract 
 apt-get install tesseract-ocr tesseract-ocr-ind
 
 .
-├── data/
-│   └── document.pdf
-├── faiss_store/
-│   ├── index.faiss
-│   ├── chunks.pkl
-│   └── config.pkl
+├── chunks.pkl
+├── data.pdf
+├── index.faiss
 ├── notebook.ipynb
 └── README.md
 
